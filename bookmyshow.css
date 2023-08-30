@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+.fnav{
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* padding: 6px; */
+    background-color: rgb(42, 42, 68);
+}
+
+.fnav .left{
+    display: flex;
+    margin-top: 10px;
+}
+
+.left img{
+    width: 22%;
+}
+
+.left input{
+    margin-inline: 15px;
+    width: 420px;
+    height: 33px;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-top: 36px;
+    border-radius: 2px;
+}
+
+.fnav .right{
+    display: flex;
+    margin-top: 15px;
+}
+
+.right p{
+    margin-inline: 22px;
+    font-size: 22px;
+    color: white;
+}
+
+
+.right button{
+    margin-inline: 22px;
+    width: 80px;
+    height: 27px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(245, 43, 77);
+    color: white;
+}
+
+
+.right i{
+    margin-inline: 22px;
+    font-size: 22px;
+    color: white;
+}
+
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 9px;
+    background-color: rgb(26, 26, 48);
+    color: white;
+}
+
+.sec-nav .s-left{
+    display: flex;
+}
+
+.sec-nav .s-right{
+    display: flex;
+}
+
+.sec-nav p:hover{
+    color: red;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.s-left p{
+    margin-inline-start: 16px;
+}
+
+.s-right p{
+    margin-inline-start: 16px;
+}
+
+.main img{
+    width: 100%;
+}
+
+.container,h1{
+    text-align: center;
+    padding-top: 22px;
+}
+
+.container .card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.card img{
+    width: 16%;
+    margin-bottom: 18px;
+    margin-top: 5px;
+    border-radius: 6px;
+
+}
+
+.banner img{
+    width: 100%;
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+
+.premier{
+    background-color: rgb(41, 39, 39);
+    color: white;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+
+.premier .containers h2{
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+
+.premier .containers h3{
+    margin-top: 22px;
+}
+
+.premier .containers .card img{
+    margin-right: 25px;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+.footer{
+    background-color: gray;
+}
+
+.footer img{
+    width: 22%;
+    margin-left: 36%;
+    padding-top: 20px;
+}
+
+.footer .icons{
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: center;
+    margin-left: -4%;
+   
+}
+
+.icons i{
+    margin-inline: 33px;
+    font-size: 25px;
+
+}
+
